@@ -1,0 +1,126 @@
+
+
+body {
+    color: #fff;
+    background-color: #000000;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 30px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#f7f7f7;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav a {
+    color: #0a0a0a;
+    padding: 35px;
+    margin-left: 150px;
+    margin-top: 25px;
+    text-align: none;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: rgb(133, 139, 139);
+}
+
+.logo{
+    padding-top: 10px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    width: 115px;
+}
+s
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+}
+
+.x{
+    display:flex;
+    width: 100%;
+}
+
+
+
+.text1{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+
+.text2{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+
+
+.text3{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 450px;
+
+}
+
+.p1{
+    grid-row: 2/2;
+}
+
+.only{
+    width: 100% !important;
+    height: 100% !important;
+    grid-row: 3/3;
+    grid-column: 1/1;
+}
+
+.accessories{
+    width: 1250px !important;
+    height: 100% !important;
+    grid-row: 3/3;
+    grid-column: 1/1;
+}
+
+.hola{
+    width: 600px;
+    height: 500px;
+}
+
+
+.Products{
+    width: 647px;
+    height: 500px;
+}
+footer{
+    background-color: #ececec;
+    padding: 25px 50px;
+    margin-top: 100px;
+}
+
+
+footer .social img {
+    padding-top: 25px;
+    width: 60px;
+
+}
+
+.c{
+    text-align: right;
+    color: #000000;
+    display: inline-block;
+    margin-left: 600px;
+}
+ 
+  
